@@ -1,4 +1,4 @@
-export const api="http://localhost:8000"
+export const api="https://realtime-food-ordering.herokuapp.com/"
 export const generatePublicUrl=(filename)=>{
-    return `http://localhost:8000/${filename}`;
+    return `https://realtime-food-ordering.herokuapp.com//${filename}`;
 }
